@@ -1,2 +1,3 @@
-# Detecting-Automated-Online-Auction-Bidders
-Classification algorithm that distinguishes between bids made by a human and a robot.
+# Can an Algorithm Reliably Detect Robot Bids in an Online Auction?
+
+Online auction sites have a problem: automated bidders, with frustrating regularity, swoop in at the last minute and steal auctions from enthusastic human users. Sites desperately want to ban these bots, but automated bidders, on the surface, look just like human users, so how can we tell the difference? To help, I used bidder data from an online aution site to build a model that could reliably distinguish robots from humans. And because I prioritized recall highly -- even if we end up bothering a few humans, let's catch as many pesky robots as possible -- I privileged the F1 score as my go-to success metric.
